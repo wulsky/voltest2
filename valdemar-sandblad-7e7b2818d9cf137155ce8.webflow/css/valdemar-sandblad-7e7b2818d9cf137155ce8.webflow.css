@@ -1,0 +1,538 @@
+body {
+  color: #333;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.body {
+  background-color: #f2f0ea;
+}
+
+.illustrations-and-3d-buttons {
+  cursor: pointer;
+}
+
+.illustrations-large {
+  padding: 5px;
+}
+
+.text-block-2 {
+  color: #333;
+  background-color: #ebe5db;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 7px 13px;
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  position: absolute;
+}
+
+.illustrations-medium {
+  padding: 5px;
+  display: none;
+}
+
+.illustrations-and-3d-text {
+  margin-top: 95px;
+  margin-bottom: 49px;
+  padding-left: 117px;
+  padding-right: 117px;
+  font-family: Gento dream, sans-serif;
+  font-size: 83px;
+  font-weight: 400;
+  line-height: 90px;
+}
+
+.illustrations-and-3d-text._3d-text {
+  color: #c5b4a8;
+  transition: all .125s;
+}
+
+.illustrations-and-3d-text._3d-text:hover {
+  color: #887b72;
+  transform: translate(0, -8px);
+}
+
+.illustrations-and-3d-text.illustrations-text {
+  transition: all .125s;
+}
+
+.illustrations-and-3d-text.illustrations-text:hover {
+  transform: translate(0, -8px);
+}
+
+.illustrations {
+  width: 100%;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.illustrations.flip {
+  transform-style: preserve-3d;
+  transform: rotateX(-180deg)rotateY(0)rotateZ(-180deg);
+}
+
+._3d-large {
+  justify-content: center;
+  display: flex;
+}
+
+.illustrations-small {
+  padding: 5px;
+  display: none;
+}
+
+.illustrations-and-3d-lanes {
+  width: 33.333%;
+  float: left;
+}
+
+.illustrations-mega-large {
+  padding: 5px;
+  display: none;
+}
+
+._3d-art {
+  width: 100%;
+  border-radius: 20px;
+  padding: 8px;
+  display: none;
+}
+
+.nav---burger-2 {
+  z-index: 999;
+  mix-blend-mode: exclusion;
+  margin-top: 14px;
+  margin-right: 25px;
+  position: fixed;
+  top: 0%;
+  bottom: auto;
+  left: auto;
+  right: 0%;
+}
+
+.nav---burger---button-2 {
+  width: 30px;
+  height: 25px;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+}
+
+.line-2 {
+  height: 2px;
+  background-color: #fff;
+}
+
+.nav---blur-2 {
+  z-index: 9;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  -webkit-backdrop-filter: sepia() blur(20px);
+  backdrop-filter: sepia() blur(20px);
+  mix-blend-mode: normal;
+  background-color: rgba(245, 237, 235, .7);
+  position: fixed;
+  top: -100vh;
+}
+
+.nav-2 {
+  z-index: 99;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  left: -100vw;
+}
+
+.nav---slabs {
+  width: 100vw;
+  height: 25vh;
+  max-height: 25vh;
+  min-height: 25vh;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.div-block-34 {
+  width: 50vw;
+  height: 10%;
+  border-bottom: 0 #333;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.link-block {
+  color: #333;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  display: flex;
+}
+
+.eh {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.nav---text---hover {
+  opacity: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Gento dream, sans-serif;
+  font-size: 85px;
+  font-weight: 400;
+  line-height: 104px;
+  display: flex;
+  position: absolute;
+}
+
+.nav---text---active {
+  opacity: 1;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Gento dream, sans-serif;
+  font-size: 85px;
+  font-weight: 400;
+  line-height: 104px;
+  display: flex;
+  position: relative;
+}
+
+.div-block {
+  width: 50vw;
+  height: 10%;
+  border-bottom: 2px solid #333;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+@media screen and (min-width: 1920px) {
+  .illustrations-large {
+    display: none;
+  }
+
+  .text-block-2 {
+    color: #333;
+    background-color: #ebe5db;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 7px 13px;
+    font-family: Poppins, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    position: absolute;
+  }
+
+  .illustrations-and-3d-lanes {
+    width: 25%;
+  }
+
+  .illustrations-mega-large {
+    display: block;
+  }
+
+  ._3d-art {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .illustrations-large {
+    display: none;
+  }
+
+  .text-block-2 {
+    margin-top: 14px;
+    margin-left: 14px;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  .illustrations-medium {
+    display: block;
+  }
+
+  .illustrations-and-3d-text._3d-text {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    padding-left: 60px;
+    font-size: 60px;
+  }
+
+  .illustrations-and-3d-text.illustrations-text {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    padding-right: 60px;
+    font-size: 65px;
+  }
+
+  .illustrations-small {
+    display: none;
+  }
+
+  .illustrations-and-3d-lanes {
+    width: 50%;
+  }
+
+  .illustrations-mega-large, ._3d-art {
+    display: none;
+  }
+
+  .nav---burger---button-2 {
+    height: 25px;
+  }
+
+  .line-2 {
+    height: 1px;
+  }
+
+  .nav---text---hover, .nav---text---active {
+    font-size: 78px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .illustrations-and-3d-text._3d-text {
+    padding-left: 20px;
+    font-size: 50px;
+  }
+
+  .illustrations-and-3d-text.illustrations-text {
+    padding-right: 20px;
+    font-size: 50px;
+  }
+
+  .illustrations-small {
+    display: none;
+  }
+
+  .nav---burger-2 {
+    margin-top: 4px;
+    margin-right: 14px;
+  }
+
+  .nav-2 {
+    height: 80vh;
+  }
+
+  .nav---slabs {
+    height: 20vh;
+    max-height: 20vh;
+    min-height: 20vh;
+  }
+
+  .nav---text---hover, .nav---text---active {
+    font-size: 40px;
+    line-height: 70px;
+  }
+
+  .div-block {
+    border-bottom-width: 1px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .illustrations-medium {
+    display: none;
+  }
+
+  .illustrations-and-3d-text._3d-text {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 13vw;
+    line-height: 20vw;
+  }
+
+  .illustrations-and-3d-text.illustrations-text {
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 13vw;
+    line-height: 20vw;
+  }
+
+  ._3d-large {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .illustrations-small {
+    display: block;
+  }
+
+  .illustrations-and-3d-lanes {
+    width: 100%;
+  }
+
+  ._3d-art {
+    display: none;
+  }
+
+  .nav-2 {
+    margin-top: 5vh;
+  }
+
+  .nav---slabs {
+    height: 22.5vh;
+    max-height: 22.5vh;
+    min-height: 22.5vh;
+  }
+
+  .nav---text---active {
+    font-size: 60px;
+    line-height: 80px;
+  }
+}
+
+
+@font-face {
+  font-family: 'Gento dream';
+  src: url('../fonts/GENTO-DREAM.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Bold.ttf') format('truetype'), url('../fonts/Poppins-ExtraBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-ExtraBoldItalic.ttf') format('truetype'), url('../fonts/Poppins-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Arome display';
+  src: url('../fonts/Arome-Display.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
